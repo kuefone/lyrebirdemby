@@ -25,7 +25,7 @@
 | :--- | :--- | :--- |
 | **📢 通知频道** | 服务器状态、更新公告 | [点击加入](https://t.me/lyrebirdchannel) |
 | **🔔 入库通知频道** | 新片入库实时通知 | [点击加入](https://t.me/+uRtbtU9gjcgwMTFl) |
-| **💬 聊天群组** | 影迷交流、问题互助 | [点击加入](https://t.me/lyrebirdchat) |
+| **💬 聊天群组** | 影迷交流、问题互助 | [点击加入](https://t.me/+8X2ZFrDPq5lkYTU1) |
 | **✈️ 合作机场** | 优化网络、流畅观影 | [访问主页](https://dash.lyrebird.cloud) |
 | **🤖 开号机器人** | 自助注册与账号管理 | [开始对话](https://t.me/Lyrebird_bot) |
 | **📥 下片机器人** | 自助求片与资源下载 | [开始对话](https://t.me/Lyrebird_download_bot) |
