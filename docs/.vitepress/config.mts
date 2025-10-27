@@ -1,16 +1,15 @@
 import { defineConfig } from 'vitepress'
-// 请确保你的文件开头是干净的，不带 DefaultTheme 的导入
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "LyrebirdEmby",
   description: "A WiKi Page for LyrebirdEmby",
   
-  // 顶部 Logo 配置
+  // 顶部主题配置
   themeConfig: {
     logo: '/images/lyrebird-logo-small.webp',
     
-    // 首页 Hero 配置
+    // --- 首页 HERO 配置 ---
     hero: {
       name: "LyrebirdEmby",
       text: "硬盘与云端的完美融合",
@@ -23,9 +22,9 @@ export default defineConfig({
         src: '/images/lyrebird-logo-large.webp',
         alt: 'LyrebirdEmby'
       }
-    }, // <--- 注意：这里是 Hero 结束，后面必须有逗号！
+    },
     
-    // 首页 Features 配置
+    // --- 首页 FEATURES 配置 ---
     features: [
       { icon: '🚀', title: '本地极速加载', details: '核心资源由本地服务器G口带宽加持，4K原盘秒开秒拖，完美支持杜比视界，告别一切缓冲等待。' },
       { icon: '☁️', title: '谷歌无限云盘', details: '精选纪录片、学习资料、稀有资源存放于谷歌云盘。无需担心本地硬盘空间，海量内容触手可及。' },
@@ -33,15 +32,15 @@ export default defineConfig({
       { icon: '🤖', title: '智能求片系统', details: '集成自研求片机器人，无论是稀有老片还是最新剧集，一键提交，自动搜刮全网并下载入库。' },
       { icon: '🔄', title: '全平台兼容性', details: '全面兼容Infuse、Vidhub、Jellyfin等主流播放器。我们提供详细配置教程，助您轻松连接，畅享影音。' },
       { icon: '💰', title: '轻松保号无忧', details: '独特的鸟币经济系统，125币/月，每日签到即可轻松保号。分享与贡献，皆有回报，打造高质量影音社区。' }
-    ], // <--- 注意：这里是 Features 数组结束，后面没有逗号！
+    ], 
     
-    // 顶部导航栏
+    // --- 顶部导航栏 ---
     nav: [
       { text: '主页', link: '/' },
       { text: '使用文档', link: '/introduce' }
     ],
 
-    // 侧边栏结构
+    // --- 侧边栏结构 (最终排版) ---
     sidebar: [
       {
         text: 'WIKI文档',
@@ -68,18 +67,18 @@ export default defineConfig({
       }
     ],
 
-    // 社交链接
+    // --- 社交链接 ---
     socialLinks: [
       { icon: 'telegram', link: 'https://t.me/lyrebirdchat' }
     ],
 
-    // 底部 Footer
+    // --- 底部 Footer ---
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © LyrebirdEmby 2025'
     },
 
-    // 最后更新时间配置
+    // --- 最后更新时间配置 ---
     lastUpdated: {
       text: '最后更新时间',
       formatOptions: {
