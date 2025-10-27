@@ -541,7 +541,7 @@
 
 ---
 
-### 2.11 🏁 结语 (Conclusion) {#anime-conclusion}
+### 2.11 🏁 结语 (Conclusion) {#anime-conclusion-2}
 
 至此，我们已经系统地剖析了动漫命名的方方面面，从收藏哲学（BDRip > Remux），到社区文化（组、NFO、命名冲突），再到技术规格（Hi10P、ASS、VFR）和画质修复。您现在应该已经掌握了构建一个专业、健壮且赏心悦目的个人动漫媒体库所需的全部核心知识。
 
