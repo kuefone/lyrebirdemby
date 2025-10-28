@@ -226,8 +226,7 @@
     *   `HONE`: 专注于 **4K DV/HDR** `WEB-DL` 的抓取。
     *   `TayTO`: 速度快的 `WEB-DL` 小组。
     *   `GalaxyRG`: 常见的 `WEB-DL`/`WEBRip` 发布组。
-``````markdown
-### 1.3.3 发布术语 (`Release Terms`) {#movies-tv-community-terms}
+```### 1.3.3 发布术语 (`Release Terms`) {#movies-tv-community-terms}
 
 这些术语经常出现在文件名中,了解它们有助于判断版本状态。
 
@@ -580,7 +579,7 @@
 *   **`DUPE (重复发布)`**: Scene 规则禁止发布与其他组完全相同的内容,`DUPE` 是对违规发布的标记。
 *   **`SUBBED (硬字幕版)`**: 包含**硬字幕**的版本。除非是特殊情况(如找不到外挂字幕的老片),否则应**避免**收藏。
 
-### 1.3.4 📜 收藏核心:NFO 文件与本地元数据 {#movies-tv-community-nfo-metadata}
+### 1.3.4 📜 收藏核心:NFO 文件与本地元数据 {#movies-tv-community-nfo-metadata-2}
 
 **文件名仅仅是"敲门砖",真正的宝藏信息在别处!**
 
@@ -606,7 +605,7 @@
 
 ---
 
-## 1.4 🧳 封装格式 (Container) {#movies-tv-container}
+## 1.4 🧳 封装格式 (Container) {#movies-tv-container-2}
 
 封装格式(文件后缀名)如同一个"行李箱",它决定了可以把哪些"衣服"(视频流、音轨、字幕、章节)装进去。它**不决定**画质,画质由"编码"决定。
 (按收藏推荐度排序)
@@ -776,7 +775,7 @@
 
 ---
 
-## 1.7 🔊 音频技术 (Audio Technology) {#movies-tv-audio-tech}
+## 1.7 🔊 音频技术 (Audio Technology) {#movies-tv-audio-tech-2}
 
 声音是电影的灵魂!收藏家对音轨的追求,丝毫不亚于画质。
 
@@ -887,7 +886,7 @@
 
 ---
 
-## 1.9 ✨ 电影/电视剧篇:总结与心得 {#movies-tv-conclusion}
+## 1.9 ✨ 电影/电视剧篇:总结与心得 {#movies-tv-conclusion-2}
 
 好了,关于电影和电视剧的命名规则与技术细节,咱们基本上把能聊的都聊透了。从最基础的来源判断,到编码、色彩、音频这些硬核知识,再到社区文化和 NFO 文件的重要性,希望能给你打下一个坚实的基础。
 
