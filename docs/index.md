@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /introduce
+      link: /1.getting-started/
     - theme: alt
       text: 加入Telegram群组
       link: https://t.me/+8X2ZFrDPq5lkYTU1

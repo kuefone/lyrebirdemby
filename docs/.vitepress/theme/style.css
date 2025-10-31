@@ -1,0 +1,116 @@
+/* ---------------------------------------------------- */
+/* 核心：自定义 VitePress Admonition 块样式 - 追求趣味性与高可读性 */
+/* ---------------------------------------------------- */
+
+/* --- 1. 全局字体优化 (可选) --- */
+/* 如果您想使用更现代或更易读的字体，可以取消注释并替换 */
+/* :root {
+  --vp-font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+} */
+
+
+/* --- 2. 增强 WARNING 块 (免责声明) - 使用黄色或红色警告色 --- */
+.custom-container.warning {
+  /* 使用浅黄色或橙色背景，突出免责声明的警示作用 */
+  --vp-custom-block-warning-bg: rgba(255, 230, 199, 0.5); /* 浅橙色 */
+  --vp-custom-block-warning-border: #ff9800; /* 橙色边框 */
+  --vp-custom-block-warning-text: var(--vp-c-text-1); 
+  border-left: 8px solid var(--vp-custom-block-warning-border); /* 粗左侧边框 */
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(255, 152, 0, 0.1);
+}
+
+.custom-container.warning .custom-container-title {
+  /* 在标题前加一个醒目的 Emoji ⚠️ */
+  color: var(--vp-custom-block-warning-border);
+  font-weight: 700;
+  padding-left: 0;
+}
+.custom-container.warning .custom-container-title::before {
+  content: '⚠️'; 
+  margin-right: 8px;
+  font-size: 1.1em;
+}
+
+/* --- 3. 增强 DANGER 块 (避坑指南) - 使用红色警告色 --- */
+.custom-container.danger {
+  /* 使用浅红色背景，突出“核心定义”或“致命错误” */
+  --vp-custom-block-danger-bg: rgba(255, 199, 199, 0.5); /* 浅红色 */
+  --vp-custom-block-danger-border: #f44336; /* 红色边框 */
+  border-left: 8px solid var(--vp-custom-block-danger-border);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(244, 67, 54, 0.1);
+}
+
+.custom-container.danger .custom-container-title::before {
+  content: '🚨'; /* 使用红色警报 Emoji */
+  margin-right: 8px;
+  font-size: 1.1em;
+  color: var(--vp-custom-block-danger-border);
+}
+
+/* --- 4. 增强 TIP 块 (老司机秘籍) - 使用蓝色或绿色强调色 --- */
+.custom-container.tip {
+  /* 使用蓝色背景，突出“秘籍”或“建议” */
+  --vp-custom-block-tip-bg: rgba(199, 219, 255, 0.5); /* 浅蓝色 */
+  --vp-custom-block-tip-border: #2196F3; /* 蓝色边框 */
+  border-left: 8px solid var(--vp-custom-block-tip-border);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.1);
+}
+
+.custom-container.tip .custom-container-title::before {
+  content: '💡'; /* 使用灯泡 Emoji */
+  margin-right: 8px;
+  font-size: 1.1em;
+  color: var(--vp-custom-block-tip-border);
+}
+
+/* --- 5. 优化 DETAILS 块 (折叠内容 - [+] 点击展开) --- */
+/* 确保折叠块有背景色，且易于点击展开 */
+details {
+  /* 基础样式，让折叠块看起来像卡片 */
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: var(--vp-c-bg-soft);
+  transition: all 0.2s ease-in-out;
+}
+
+/* 优化 Summary 标题样式 */
+details summary {
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  list-style: none; /* 移除默认的浏览器箭头 */
+  display: flex; /* 启用 flex 布局来控制 Emoji 位置 */
+  align-items: center;
+  transition: color 0.2s ease-in-out;
+}
+
+/* 为 SUMMARY 添加动态 Emoji 箭头（增强趣味性） */
+details summary::before {
+  content: "▶️"; /* 默认状态的 Emoji 箭头 */
+  margin-right: 8px;
+  font-size: 0.9em;
+  color: var(--vp-c-brand-1); /* 使用品牌色 */
+  transform: rotate(0deg);
+  transition: transform 0.2s ease-in-out;
+}
+/* 展开状态的 Emoji 箭头 */
+details[open] summary::before {
+  content: "🔽"; 
+  transform: rotate(0deg);
+}
+
+/* 展开时的样式微调 */
+details[open] {
+  border-color: var(--vp-c-brand-1);
+}
+
+/* 调整 details 块内容与标题的间距 */
+details > *:not(summary) {
+  margin-top: 12px;
+}

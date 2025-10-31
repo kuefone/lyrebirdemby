@@ -6,70 +6,7 @@ export default defineConfig({
   description: "A WiKi Page for LyrebirdEmby",
   
   themeConfig: {
-    // 首页配置
-    hero: {
-      name: "LyrebirdEmby",
-      text: "硬盘与云端的完美融合",
-      tagline: "我们整合本地硬盘的高速响应、115网盘的秒传与谷歌云盘的海量存储，为您带来前所未有的观影体验。",
-      actions: [
-        { theme: 'brand', text: '快速开始', link: '/introduce' },
-        { theme: 'alt', text: '加入Telegram群组', link: 'https://t.me/lyrebirdchat' } 
-      ],
-      image: {
-        src: '/images/lyrebird-logo-large.webp',
-        alt: 'LyrebirdEmby'
-      }
-    },
-    features: [
-      { icon: '🚀', title: '本地极速加载', details: '核心资源由本地服务器G口带宽加持，4K原盘秒开秒拖，完美支持杜比视界，告别一切缓冲等待。' },
-      { icon: '☁️', title: '谷歌无限云盘', details: '精选纪录片、学习资料、稀有资源存放于谷歌云盘。无需担心本地硬盘空间，海量内容触手可及。' },
-      { icon: '💾', title: '115网盘秒传', details: '利用115网盘的离线与秒传特性，实现资源的快速入库与冷备份。双重保障，确保您的收藏永不丢失。' },
-      { icon: '🤖', title: '智能求片系统', details: '集成自研求片机器人，无论是稀有老片还是最新剧集，一键提交，自动搜刮全网并下载入库。' },
-      { icon: '🔄', title: '全平台兼容性', details: '全面兼容Infuse、Vidhub、Jellyfin等主流播放器。我们提供详细配置教程，助您轻松连接，畅享影音。' },
-      { icon: '💰', title: '轻松保号无忧', details: '独特的鸟币经济系统，125币/月，每日签到即可轻松保号。分享与贡献，皆有回报，打造高质量影音社区。' }
-    ],
-
-    // 基础配置
     logo: '/images/lyrebird-logo-small.webp',
-    nav: [
-      { text: '主页', link: '/' },
-      { text: '使用文档', link: '/introduce' }
-    ],
-    
-    sidebar: {
-      '/guide-movies-tv': [
-        {
-          text: '🎬 电影电视指南',
-          items: [] // 自动从页面中读取 h2, h3 标题
-        }
-      ],
-      '/': [ // 默认侧边栏
-        {
-          text: 'WIKI文档',
-          collapsed: false,
-          items: [
-            { text: '📄 介绍', link: '/introduce' },
-            { text: '📜 使用须知', link: '/rules' },
-            { text: '📥 求片指南', link: '/download' },
-            { text: '🤝 合作机场', link: '/airport' },
-            { text: '🌐 线路使用', link: '/line' },
-            { text: '❓ 疑难杂症', link: '/faq' },
-            { text: '❤️ 关于我们', link: '/about' }
-          ]
-        },
-        {
-          text: '🔰 下片指南',
-          collapsed: false,
-          items: [
-            { text: '🚀 傻瓜式上手指南', link: '/quick-start' }, 
-            { text: '🎬 电影电视指南', link: '/guide-movies-tv' },
-            { text: '🌸 动漫指南', link: '/guide-anime' },
-            { text: '🔞 成人影片指南', link: '/guide-adult-video' }
-          ]
-        }
-      ]
-    },
-    
     socialLinks: [
       { icon: 'telegram', link: 'https://t.me/lyrebirdchat' }
     ],
@@ -83,6 +20,61 @@ export default defineConfig({
         dateStyle: 'full',
         timeStyle: 'short'
       }
-    }
+    },
+
+    nav: [
+      { text: '主页', link: '/' },
+      { text: '使用文档', link: '/1.getting-started/' }
+    ],
+    
+    sidebar: [
+      {
+        text: '👋 新手上路',
+        collapsed: false,
+        items: [
+          { text: '必读：三分钟上路流程', link: '/1.getting-started/' },
+          { text: '📜 核心行为准则 (红线)', link: '/1.getting-started/rules' },
+          { text: '🖥️ 客户端白名单', link: '/1.getting-started/clients' },
+          { text: '💬 资源黑话速查', link: '/1.getting-started/terminology' }
+        ]
+      },
+      {
+        text: '⚙️ 核心服务',
+        collapsed: false,
+        items: [
+          { text: '服务总览', link: '/2.services/' },
+          { text: '💰 鸟币系统与保号', link: '/2.services/account' },
+          { text: '📥 求片机器人', link: '/2.services/downloading' },
+          { text: '🌐 线路选择与优化', link: '/2.services/connectivity' }
+        ]
+      },
+      {
+        text: '🤝 合作伙伴',
+        collapsed: false,
+        items: [
+          { text: '伙伴总览', link: '/3.partners/' },
+          { text: '✈️ 合作机场指南', link: '/3.partners/airport' }
+        ]
+      },
+      {
+        text: '📚 硬核指南 (选读)',
+        collapsed: true,
+        items: [
+          { text: '指南索引', link: '/4.deep-dive/' },
+          { text: '🎬 电影电视指南', link: '/4.deep-dive/movies-tv' },
+          { text: '🌸 动漫收藏指南', link: '/4.deep-dive/anime' },
+          { text: '🔞 成人影像指南', link: '/4.deep-dive/adult' }
+        ]
+      },
+      {
+        text: '💬 社区与帮助',
+        collapsed: false,
+        items: [
+          { text: '社区索引', link: '/5.community/' },
+          { text: '🙋‍♂️ 常见问题 (FAQ)', link: '/5.community/faq' },
+          { text: '🐦 关于我们 (名人堂)', link: '/5.community/about' }
+        ]
+      }
+    ]
   }
 })

@@ -9,11 +9,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "skipLibCheck": true,
-    "types": ["vitepress/client"]
+    "skipLibCheck": true
   },
   "include": [
-    "docs/.vitepress/**/*",  // <--- 致命错误已修正：用 `*` 匹配包括 .mts 在内的所有文件
+    "docs/.vitepress/**/*.ts",
+    "docs/.vitepress/**/*.mts",
     "docs/**/*.md"
   ],
   "exclude": ["node_modules", "dist"]
