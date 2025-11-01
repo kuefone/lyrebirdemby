@@ -31,7 +31,7 @@
 
 ---
 
-## 🪙 鸟币经济系统详解 {#coin-system}
+## 💰鸟币经济系统详解 {#coin-system}
 
 <a id="q-what-is-lyrebird-coin"></a>
 

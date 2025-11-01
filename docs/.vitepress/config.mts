@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
+// [https://vitepress.dev/reference/site-config](https://vitepress.dev/reference/site-config)
 export default defineConfig({
   title: "LyrebirdEmby",
   description: "A WiKi Page for LyrebirdEmby",
@@ -8,7 +8,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/images/lyrebird-logo-small.webp',
     socialLinks: [
-      { icon: 'telegram', link: 'https://t.me/lyrebirdchat' }
+      { icon: 'telegram', link: '[https://t.me/lyrebirdchat](https://t.me/lyrebirdchat)' }
     ],
     footer: {
       message: 'Released under the MIT License.',
@@ -24,6 +24,7 @@ export default defineConfig({
 
     nav: [
       { text: '主页', link: '/' },
+      { text: '加入我们', link: '/introduce' },
       { text: '使用文档', link: '/1.getting-started/' }
     ],
     
