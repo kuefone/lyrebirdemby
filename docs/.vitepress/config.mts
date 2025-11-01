@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-// [https://vitepress.dev/reference/site-config](https://vitepress.dev/reference/site-config)
+// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "LyrebirdEmby",
   description: "A WiKi Page for LyrebirdEmby",
@@ -36,6 +36,7 @@ export default defineConfig({
           { text: '必读：三分钟上路流程', link: '/1.getting-started/' },
           { text: '📜 核心行为准则 (红线)', link: '/1.getting-started/rules' },
           { text: '🖥️ 客户端白名单', link: '/1.getting-started/clients' },
+          { text: '🤝 如何加入我们', link: '/1.getting-started/join-us' },
           { text: '💬 资源黑话速查', link: '/1.getting-started/terminology' }
         ]
       },
