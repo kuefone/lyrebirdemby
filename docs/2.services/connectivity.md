@@ -9,7 +9,7 @@
 ---
 
 <a id="main-line"></a>
-## 1. 🌍 主线路 (Cloudflare 全球CDN) {#main-line}
+## 1. 🌍 CDN线路 (Cloudflare 全球CDN) {#main-line}
 
 :::info 💡 **一句话总结**
 覆盖全球的通用线路，开箱即用，推荐搭配代理工具以获得最佳体验。
@@ -23,30 +23,8 @@
 
 ---
 
-<a id="airport-line"></a>
-## 2. ✈️ 机场专线 (内网直达) {#airport-line}
-
-:::info 💡 **一句话总结**
-与 [**[合作机场]**](/3.partners/airport) 深度集成的专属线路，提供最低延迟、最稳定的内网级连接体验。
-:::
-
-* **核心特点**：数据传输不绕行拥挤的公网，极大减少了延迟与干扰，是目前体验“如丝般顺滑”播放的最佳选择。
-* **适合人群**：追求极致观影体验、希望“一步到位”的合作机场用户。
-* **使用方法**：此线路的配置方法已无缝集成在合作机场的订阅规则中。
-
-<div style="text-align: center; margin: 2rem 0;">
-  <a href="/3.partners/airport" class="VPButton brand">
-    查看合作机场指南
-  </a>
-</div>
-
-* **优点**：速度最快，连接最稳定，是琴鸟生态的最佳拍档。
-* **缺点**：需要您是琴鸟合作机场的用户。
-
----
-
 <a id="bare-ip-line"></a>
-## 3. 🔧 裸IP线路 (DIY反代专用) {#bare-ip-line}
+## 2. 🔧 裸IP线路 (DIY反代专用) {#bare-ip-line}
 
 :::info 💡 **一句话总结**
 为高级用户提供的服务器直连IP，用于自建反向代理，打造您的专属访问路径。
@@ -58,13 +36,13 @@
 
 ::: details [+] 点击展开 | 查看DIY反向代理详细指南 {#bare-ip-line-details}
 
-#### 3.1 🧱 您需要准备什么？ {#bare-ip-line-requirements}
+#### 2.1 🧱 您需要准备什么？ {#bare-ip-line-requirements}
 
 1.  一台位于海外的 **`VPS` 服务器** (推荐 `Debian 11` 或 `Ubuntu 22.04` 以上系统)。
 2.  一个您自己拥有的**域名**。
 3.  在 [账号管理机器人](https://t.me/Lybird_bot) 处获取最新的 **裸IP线路地址**。
 
-#### 3.2 🤔 什么是反向代理 (Reverse Proxy)？ {#bare-ip-line-what-is}
+#### 2.2 🤔 什么是反向代理 (Reverse Proxy)？ {#bare-ip-line-what-is}
 
 简单来说，反向代理 (`Reverse Proxy`) 就是在您的 `VPS` 上架设一个“中转站”（通常使用 `Nginx` 或 `Caddy`）。
 
@@ -75,7 +53,7 @@
     3.  **安全性**: 您可以通过自己的域名和 `HTTPS` 访问，进一步增强隐私。
     4.  **稳定性**: 避免 `Cloudflare` 节点波动带来的影响。
 
-#### 3.3 ⌨️ 推荐的 SSH 工具 {#bare-ip-line-tools}
+#### 2.3 ⌨️ 推荐的 SSH 工具 {#bare-ip-line-tools}
 
 您需要 `SSH` 客户端来登录您的 `VPS` 执行脚本。
 
@@ -87,7 +65,7 @@
 这些都是非常成熟的工具。如果您不熟悉如何使用 `SSH` 登录服务器，建议前往 `Bilibili` 或 `YouTube` 搜索“`Xshell 使用教程`”或“`Termius 入门`”。
 :::
 
-#### 3.4 🚀 一键反代脚本使用指南 {#bare-ip-line-script}
+#### 2.4 🚀 一键反代脚本使用指南 {#bare-ip-line-script}
 
 :::danger 操作警告
 此操作需要您具备基础的 `SSH` 和服务器操作知识。请确保您知道自己在做什么。
@@ -108,52 +86,6 @@
 
 4.  **完成与使用**
     结束后，您就可以通过 `https://您的域名` 来高速访问 Emby 了。恭喜您拥有了一条私人高速公路！
-
-:::
-
----
-
-<a id="whitelist-line"></a>
-## 4. 📚 白名单线路 (大陆优化) {#whitelist-line}
-
-:::info 💡 **一句话总结**
-为特定用户提供的中国大陆优化直连线路，有速率限制，非白名单用户使用会产生额外费用。
-:::
-
-* **核心特点**：针对中国大陆网络环境进行三网优化，在不使用代理工具的情况下，可获得比主线路更好的直连效果。
-* **适合人群**：已获取资格的 **白名单用户**。
-
-:::warning 非白名单用户使用提示
-非白名单用户仍可使用此线路，但系统会自动从您的账户中扣除 **`10鸟币/天`** 的服务费（按自然日计算，当天使用即扣费）。
-:::
-
-:::tip 速率限制说明
-为了保证线路质量和公平性，此线路对所有用户统一限速 **`100Mbps`**。
-:::
-
-::: details 🤔 在部分地区无法连接？点击查看域名解析IP直连教程 {#whitelist-line-dns}
-
----
-
-部分地区（如江苏等）的网络环境可能存在“墙中墙”，直接屏蔽了未备案的域名。别担心，您可以通过手动解析IP的方式绕过这个限制。
-
-#### 4.1 🛰️ 获取IP地址 {#whitelist-line-get-ip}
-
-1.  打开DNS查询网站，例如 [**站长工具DNS查询**](https://tool.chinaz.com/dns/)。
-2.  在输入框中，输入 **白名单线路的域名**，点击“检测”。
-3.  在检测结果中，复制任意一个解析出的 `IP` 地址。
-
-    ![DNS解析](https://raw.githubusercontent.com/kuefone/wiki/main/docs/images/whitelinedns.png)
-    ![IP解析](https://raw.githubusercontent.com/kuefone/wiki/main/docs/images/whitelineip.png)
-
-#### 4.2 🛠️ 修改客户端配置 {#whitelist-line-set-ip}
-
-1.  在您的 Emby 客户端中，将服务器地址栏中的 **域名部分**，替换为您刚刚复制的 **`IP` 地址** 即可。
-2.  **端口号保持不变**。
-
-:::danger 重要：IP地址并非永久固定！
-请注意，解析出的 `IP` 地址大约 **每周会变动一次**。当您发现无法连接时，只需重复上述步骤，获取最新的 `IP` 地址即可。这是在特殊网络环境下保持连接的必要操作。同时，请爱护这条脆弱的优化线路，**切勿泄露解析出的 IP 地址**。
-:::
 
 ---
 :::
