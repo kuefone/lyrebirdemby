@@ -5,11 +5,15 @@
 使用“非白名单”内的客户端登录，您的账号会被系统拒绝登录。如果您确信您当前使用的客户端不存在扫库或者其他损害服务器的行为，请联系腐竹 @窥屏怪 添加UI白名单。
 :::
 
+:::warning ❗ Infuse 客户端特别警告
+Infuse 客户端**必须**使用“直连模式 (Direct Mode)”进行连接和播放。**严禁**使用其默认的“媒体库模式 (Library Mode)”，否则将违反 [核心行为准则](/1.getting-started/rules) 而导致封禁。
+:::
+
 ---
 
 ## ✅ 推荐客户端“白名单” (Approved Clients) {#q-client-list}
 
-**建议您使用以下“白名单”内的第三方客户端。** 它们经过社区验证（截至 2025 年 10 月），体验优秀。
+**建议您使用以下“白名单”内的第三方客户端。** 它们经过社区验证体验优秀。
 
 :::tip 💡 老鸟的忠告
 **不要想着越级打怪，花点钱体验更好，豹子头零冲当我放屁。**
@@ -38,19 +42,19 @@
 | **`Infuse`** | 收费 | iOS, tvOS, macOS | **Apple 生态最强播放器**，完美支持TV。 |
 | **`Senplayer`** | 收费 | iOS, tvOS, macOS | 体验优秀，多账号使用比上面那个好用很多价格也不贵。 |
 | **`Lenna`** | **免费** | iOS, tvOS, macOS | 免费且好用的 Apple 生态客户端，真用爱发电。 |
-| **`yybx / iemc`** | 收fed | iOS, tvOS, macOS | 小而美播放器。 |
+| **`yybx / iemc`** | 收费 | iOS, tvOS, macOS | 小而美播放器。 |
 :::
 
 ---
 
-## 📋 完整UI白名单列表 (Full Whitelist) {#q-full-whitelist}
+## 📋 完整UA白名单列表 (Full Whitelist) {#q-full-whitelist}
 
 上方是“推荐客户端”，但**此列表中的任何客户端均可正常登录**（持续添加中）。
 
 ::: details [+] 点击展开查看完整白名单
 * Afusekt
 * Afusekt TV
-* conflux
+* Conflux
 * DS Cloud
 * EplayerX
 * Femor
@@ -59,13 +63,13 @@
 * Hamhub
 * Hills
 * Hills Lite
-* iemc / yybx
+* Iemc / Yybx
 * Infuse (Direct Mode)
 * Lenna
 * Reflux
 * Rodel player （小幻影视）
 * Sen Player
-* vidhub
+* Vidhub
 * Yamby
 :::
 
