@@ -1,90 +1,45 @@
-# 🐦 LyrebirdEmby (琴鸟) {#introduce}
+# LyrebirdEmby (简称鸟服)
 
-> 一个专注于品质与体验的纯粹观影家园。
+LyrebirdEmby 是一个基于纯血硬盘独立服务器的Emby影视库
+![LyrebirdEmby](/images/medialibpreview.png "媒体库预览")
 
-![LyrebirdEmby 媒体库预览](/images/medialibpreview.png)
+## Telegram
 
----
+[通知频道](https://t.me/lyrebirdchannel)  
+[聊天群组](https://t.me/lyrebirdchat)  
+[入库通知频道](https://t.me/lyrebird_Inbound)  
+[开号机器人]( https://t.me/Lyrebird_bot)
 
-## 🚀 核心特性一览 {#features}
+## 开服时间
 
-| 特性 | 描述 |
-| :--- | :--- |
-| **⚡️ 极致性能** | 企业级硬件，`4K` 内容秒速加载，进度条随意拖拽。|
-| **💎 精选片源** | 坚持收藏官方蓝光与高码率资源，提供接近原盘的影音体验。|
-| **🤖 智能求片** | `7x24` 小时全自动机器人，一键搜罗全网，轻松入库。|
-| **❤️ 社区驱动** | 可持续的半公益模式，通过轻松活跃即可稳定持有账号。|
+2024-01-17 12:00:00 -- 至今
 
----
+## 服务性质
 
-## 🚫 核心行为准则 (红线规则) {#red-line-rules}
+半公益性质，前期可通过自由开放注册加入以及签到鸟币换取加入，后期需合作机场加入或捐赠白名单加入  
+目前通过良好的机场合作返利，鸟服已经达到收支平衡，能够进行长期运营。  
 
-:::info
-在您决定加入之前，请**务必**阅读以下“红线规则”。
-这是保证本站存续的基石，**任何触犯都将导致立即永久封禁，无一例外**。
-:::
 
-<a id="q-sharing-policy-intro"></a>
-### 1. 🔑 账号“红线” (Account Policy) {#q-sharing-policy-intro}
+## 适合人群
 
-:::danger 严禁共享 (ZERO TOLERANCE)
-**琴鸟(Lyrebird) 严禁任何形式的账号共享、合租、转借、赠与。**
-您的账号**仅限您本人**使用。我们的后台系统会 7x24 小时监控异常 `IP` 和设备活动。
-:::
+Emby集邮退烧，PT/NAS退坑，自定义点播，追新剧集，追求速度
 
-<a id="q-banned-clients-intro"></a>
-### 2. 🖥️ 客户端“黑名单” (Banned Clients) {#q-banned-clients-intro}
+## 负载人数
 
-:::danger 禁用官方/违规客户端与网页版
-**琴鸟(Lyrebird) 禁止使用所有官方 Emby 客户端、网页浏览器** 及 **违规第三方客户端** (如 `Kodi`, `爆米花` 等)。
-您**必须**使用 [**`使用须知`**](/5.community/faq) 中指定的“白名单”客户端。
-:::
+在保证高峰期也能流畅观影前提下，本服极限注册人数大约为1800人。目前1500人。会维持在1500人左右保证冗余
 
----
+## 注册方式
 
-## 🤝 如何加入我们 {#how-to-join}
+ ~~自由开放注册~~ 已结束
 
-我们目前提供多种稳定、可持续的加入方式。
+ ~~签到鸟币换取加入~~ 已结束
 
-:::tip [✈️ 合作机场通道] {#join-airport}
-* **简介**：通过我们的合作机场服务，获取顶级线路并轻松加入。
-* **链接**：[**查看合作机场加入指南**](/3.partners/airport)
-:::
+ 合作机场加入  https://wiki.lyrebirdemby.com/airport.html
 
-:::tip [💖 发电通道 (限时)] {#join-donation}
-* **简介**： 通过直接支持社区发展的方式加入。您的支持是我们前进的动力。
-* **方式**：直接购买注册码。
-* **链接**：[**访问Lyrebird商店**](https://store.lyrebirdemby.com)
-:::
+ 捐赠白名单加入  https://store.lyrebirdemby.com
 
-:::danger [⚪️ 白名单鸟币邀请通道] {#join-coin-invite}
-* **简介**：已有账号的白名单朋友，可使用 `1000 鸟币` 兑换一个注册码。
-* **方式**：在 [账号管理机器人](https://t.me/Lyrebird_bot) 处操作。
-* **警告：邀请连坐制度**
-    请注意！通过此方式生成的邀请码**享受连坐制度**。如果您邀请的朋友触犯了 [**核心行为准则**](/1.getting-started/rules)，您作为邀请人将承担连带责任，**您的账号也可能被封禁**。请务必只邀请您充分信任的朋友。
-:::
 
----
 
-## 💬 Telegram 生态圈 {#telegram-ecosystem}
 
-我们的社区与服务围绕 `Telegram` 构建，您可以通过以下链接找到我们：
 
-| 名称 | 简介 | 链接 |
-| :--- | :--- | :--- |
-| **📢 通知频道** | 服务器状态、更新公告 | [点击加入](https://t.me/lyrebirdchannel) |
-| **🔔 入库通知频道** | 新片入库实时通知 | [点击加入](https://t.me/+uRtbtU9gjcgwMTFl) |
-| **💬 聊天群组** | 影迷交流、问题互助 | [点击加入](https://t.me/+8X2ZFrDPq5lkYTU1) |
-| **✈️ 合作机场** | 优化网络、流畅观影 | [访问主页](https://dash.lyrebird.cloud) |
-| **🤖 开号机器人** | 自助注册与账号管理 | [开始对话](https://t.me/Lyrebird_bot) |
-| **📥 下片机器人** | 自助求片与资源下载 | [开始对话](https://t.me/Lyrebird_download_bot) |
 
----
-
-<br>
-
-:::tip [📈 当前运营状态] {#operation-status}
-* **启航于**: `2024-01-17`
-* **服务性质**: 可持续的半公益社区
-* **当前容量**: `1657 / 2000` (为保证体验，动态调整)
-:::
