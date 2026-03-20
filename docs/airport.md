@@ -1,7 +1,7 @@
 # 合作机场
 ## LyrebirdCloud机场
 ### 机场链接 
-官网地址 https://dash.lyrebird.cloud  
+官网地址 https://portal.lyrebirdcloud.com  
 机场机器人 https://t.me/LyrebirdCloudBot
 ### 机场价格
 12元/200G(每月1号自动重置流量)/月 119元/200G(每月1号自动重置流量)/年
